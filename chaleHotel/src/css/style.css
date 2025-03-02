@@ -1,0 +1,108 @@
+/*Header*/
+header{
+    display: grid;
+    grid-template-columns: 798px 580px;
+    grid-template-rows: 250px;
+    justify-content: center;
+}
+#fundoHeader{
+    background: url("../imagens/topo-imagem-principal.png");
+}
+#logo{
+    margin: 15px 15px;
+}
+#menu{
+    background: url("../imagens/topo-imagem-lateral.png") no-repeat;
+    z-index: 1;
+    position: relative;
+    margin-left:-60px;
+    display: flex;
+    flex-direction: column;
+}
+#menu p{
+    margin: 20px 130px;
+    color: #8b8448;
+    height: 30px;
+}
+#menu p a{
+    background-color: #8b8448;
+    color: #fff5b0;
+    padding: 10px;
+    margin-left: 40px;
+}
+#menu p a:hover{
+    background-color: #fff5b0;
+    color: #8b8448;
+    transition: 0.5s;
+}
+#menuInteracao a{
+    margin: 20px 130px;
+    color: #8b8448;
+    padding: 10px;
+    border-radius: 5px;
+}
+#menuInteracao a:hover{
+    background-color: #fff5b0;
+    transition: 0.5s;
+}
+#menuInteracao li{
+    padding: 10px 0;
+}
+/*Conteudo principal*/
+main{
+    display: grid;
+    grid-template-columns: 798px 580px;
+    justify-content: center;
+    height: max-content;
+}
+main #container{
+    margin-top: 5px;
+    background-color: #faf2bf;
+    border: solid 1px black;
+    border-radius: 10px;
+    padding:20px;
+
+}
+main #container h1{
+    color: #8b8448;
+    padding: 20px;
+    border-bottom: solid 1px #8b8448;
+}
+main #container p{
+    font-size: 20px;
+    text-align: justify;
+}
+main #container a{
+    color: #8b8448;
+}
+main #container a:hover{
+    color: #000000;
+    text-decoration: underline;
+}
+main #container p.esperamosVoce{
+    width: 100%;
+    text-align: center;
+}
+
+/*Artigo lateral*/
+article{
+    background-color: #f0e59d;
+    border: solid 1px #000000;
+    border-radius: 10px;
+    margin-top: 5px;
+}
+.descricaoLateral{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    margin: 15px 15px;
+}
+.descricaoLateral h1{
+    color: #8b8448;
+    border-bottom: 1px solid #8b8448;
+}
+/*Rodape*/
+footer{
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+}
